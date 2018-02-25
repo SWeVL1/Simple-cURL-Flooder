@@ -1,5 +1,5 @@
 #!/bin/bash
-count=200; #Spam count!
+count=200; #Spam counter!
 RED='\033[0;31m'
 GREEN='\e[32m'
 NC='\033[0m'
