@@ -22,5 +22,5 @@ if [[ $1 == 'start' ]]; then
 		printf "${GREEN}Flooding has been finished!${NC}\n"
 	fi
 else
-	printf "${RED}Start it with 'start'!${NC}\n"
+	printf "${RED}Start it with start${NC}\n"
 fi
