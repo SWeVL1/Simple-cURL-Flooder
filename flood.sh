@@ -13,7 +13,7 @@ if [[ $1 == 'start' ]]; then
 			sudo apt-get install curl
 		else
 			printf "${RED}cURL installer aborted!${NC}\n"
-	   fi
+	   	fi
 	else
 		printf "${RED}Start flooding...${NC}\n"
 		for ((i=0; i < count; i++)) ; do
