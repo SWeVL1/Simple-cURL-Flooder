@@ -1,6 +1,6 @@
 #!/bin/bash
 count=2; #Spam counter!
-url="http://example.com/iplogger.php" #The logger page can be entered here.
+url="http://212.8.250.193" #The logger page can be entered here.
 useragent="Flooding-Tool/3.0.1 (GitHub.com/SossenSystems/Simple-cURL-Flooder; HackOS; Lindows x86_64; rv:52.4)" #The user agent can be defined here
 RED='\033[0;31m'
 GREEN='\e[32m'
@@ -10,7 +10,7 @@ if [[ $1 == 'start' ]]; then
 		echo -e "Command not found! Install? (y/n) \c"
 		read
 		if "$REPLY" = "y"; then
-			sudo apt-get install curl
+			apt-get install curl
 		else
 			printf "${RED}cURL installer aborted!${NC}\n"
 	   	fi
